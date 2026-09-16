@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Page, Product } from './types';
 import { PRODUCTS_DATA, COMPANY_INFO } from './data/companyData';
 import { Navbar } from './components/Navbar';
@@ -137,6 +138,9 @@ export default function App() {
         isOpen={isHostingModalOpen}
         onClose={() => setIsHostingModalOpen(false)}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
