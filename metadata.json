@@ -1,0 +1,6 @@
+{
+  "name": "Numera.AI Labs",
+  "description": "Showcase of AI/ML products, offline LLMs, defense systems, and enterprise research solutions by Numera.AI Labs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
