@@ -39,7 +39,7 @@ export const Footer: React.FC<FooterProps> = ({
               Ready to deploy custom offline LLMs or AI signal tools?
             </h3>
             <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-              Engage directly with our PhD-led R&D team for custom model architecture, privacy-first offline KMS, and quantum security protocols.
+              Engage directly with our team for custom model architecture, privacy-first offline KMS, and quantum security protocols.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
